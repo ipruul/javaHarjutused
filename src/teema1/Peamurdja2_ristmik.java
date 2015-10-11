@@ -47,22 +47,19 @@ public class Peamurdja2_ristmik extends Application {
 
             foor.syytaPunane();
             foor.paus(2);
-
+            foor.kustutaPunane();
 
             foor.syytaKollane();
             foor.paus(1);
-            foor.vahetaPunast();
             foor.vahetaKollast();
 
-            foor.vahetaRohelist();
+            foor.syytaRoheline();
             foor.paus(3);
             foor.kustutaRoheline();
 
-
-            foor.vahetaKollast();
+            foor.syytaKollane();
             foor.paus(1);
             foor.kustutaKollane();
-
 
             foor.vahetaPunast();
             foor.paus(2);
@@ -72,9 +69,11 @@ public class Peamurdja2_ristmik extends Application {
             foor.syytaRoheline();
             foor.paus(3);
             foor.kustutaRoheline();
+
             foor.syytaKollane();
             foor.paus(1);
             foor.kustutaKollane();
+
             foor.syytaPunane();
             foor.paus(2);
             foor.kustutaPunane();
@@ -82,6 +81,7 @@ public class Peamurdja2_ristmik extends Application {
             foor.syytaKollane();
             foor.paus(1);
             foor.kustutaKollane();
+
             foor.syytaRoheline();
             foor.paus(3);
             foor.kustutaRoheline();
