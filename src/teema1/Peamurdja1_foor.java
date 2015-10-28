@@ -1,4 +1,4 @@
-package teema1;
+﻿package teema1;
 
 import lib.Foor;
 
@@ -16,6 +16,7 @@ import lib.Foor;
  *
  * NB! Kui kirjutad new Foor(); siis IDE pakub sulle Foori importimise võimalust.
  * Kliki punase teksti peale ja vajuta alt+enter.
+ * hello
  */
 public class Peamurdja1_foor extends Application {
     @Override
