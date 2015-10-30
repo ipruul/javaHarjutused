@@ -24,6 +24,7 @@ public class Peamurdja3_laevad {
 
         System.out.println(laud[1]);
         //  System.out.println(laud.length );
+        //hello halloween
 
         Scanner kasutaja = new Scanner(System.in);
         System.out.println("Sisesta no kuni " + laud.length);
