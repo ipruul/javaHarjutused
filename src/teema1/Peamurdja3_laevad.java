@@ -2,7 +2,6 @@ package teema1;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 /**
  * NB! Lahenda käesolev ülesanne konsoolis. Pole vaja JavaFXi siia segada.
