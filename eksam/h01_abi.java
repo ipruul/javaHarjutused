@@ -7,6 +7,6 @@ public class h01_abi {
     public String getClassName(){
         String className = this.getClass().getSimpleName();
         System.out.println(className);
-        return className;
+        return className                                            ;
     }
 }
