@@ -11,6 +11,9 @@ public class KuulusNumber {
         int[] naide = {1, 5, 3, 3, 6, 3, 7, 7}; // vastus on 7
         for (int i = 0; i <naide.length ; i++) {
             System.out.println(naide[i]);
+            if (naide[i] == 3){
+                System.out.println("kolm");
+            }
 
         }
     }
