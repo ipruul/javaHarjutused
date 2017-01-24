@@ -1,5 +1,8 @@
 package Algoritm;
 
+import java.awt.*;
+import java.util.Arrays;
+
 /**
  * Antud on int[] massiiv. Eemalda kõik nr 3 väärtused ja leia millist numbrit esineb kõige siis rohkem?
  * Mitte siis number, mis on kolmandal indeksil, vaid nr kolm ise.
@@ -13,7 +16,13 @@ public class KuulusNumber {
             System.out.println(naide[i]);
             if (naide[i] == 3){
                 System.out.println("kolm");
+                Arrays.asList(naide[i]);
+                System.out.println(naide[i];
+
+
             }
+//            int[] naide2 = {naide[i]};
+//            System.out.println(naide[i]);
 
         }
     }
