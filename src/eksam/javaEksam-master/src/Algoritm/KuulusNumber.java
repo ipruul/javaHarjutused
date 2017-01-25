@@ -15,7 +15,7 @@ public class KuulusNumber {
             if (naide[i] == 3){
                 System.out.println("kolm");
                 Arrays.asList(naide[i]);
-                System.out.println(naide[i];
+                System.out.println(naide[i]);
 
 
             }
