@@ -31,13 +31,22 @@ public class Kikilips {
         }
         System.out.println();
 
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 8; j++) {
                 System.out.print(j);
                 System.out.print(" ");
             }
             System.out.println(" ");
         }
+
+        System.out.println();
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                System.out.print(" " + i + " - " + j + " ");            }
+
+        }
+        System.out.println();
 
 
 ////     Lihtsalt abiline meetod, et maatriksit välja printida
