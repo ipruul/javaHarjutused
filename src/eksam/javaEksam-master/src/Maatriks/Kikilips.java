@@ -69,6 +69,8 @@ public class Kikilips {
 
 
 
+
+
 ////     Lihtsalt abiline meetod, et maatriksit välja printida
 //    private static void printMaatriks(int[][] laud) {
 //        for (int i = 0; i < laud.length; i++) {

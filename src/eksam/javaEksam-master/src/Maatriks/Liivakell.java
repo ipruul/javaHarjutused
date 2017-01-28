@@ -19,10 +19,21 @@ import java.util.Arrays;
 public class Liivakell {
 
     // Lihtsalt abiline meetod, et maatriksit välja printida
-    private static void printMaatriks(int[][] laud) {
-        for (int i = 0; i < laud.length; i++) {
-            System.out.println(Arrays.toString(laud[i]));
+    public static void main(String[] args) {
+
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if ((i >= j && i + j > 7) || (i <= j && i + j <= 8)) {
+                    System.out.print(" 0 ");
+
+                } else {
+                    System.out.print(" - ");
+                }
+
+            }
+            System.out.println();
+
         }
-        System.out.println("");
     }
 }
