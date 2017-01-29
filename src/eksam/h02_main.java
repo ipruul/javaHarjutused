@@ -3,6 +3,8 @@ package eksam;
 import javafx.application.Application;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
@@ -31,6 +33,10 @@ public class h02_main extends Application{
         klass Kl = new klass();
         Kl.meetod();
 
+        button B1 = new button();
+        B1.klik();
+
+
         pane.getChildren().addAll(ring);
         
 
@@ -42,5 +48,12 @@ public class h02_main extends Application{
             System.out.println("Tere hommikust");
         }
 
+
+    }
+    public class button{
+        public void klik()
+        {
+            System.out.println("Nupp");
+        }
     }
 }
