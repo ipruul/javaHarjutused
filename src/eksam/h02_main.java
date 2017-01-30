@@ -38,7 +38,10 @@ public class h02_main extends Application{
 
 
         pane.getChildren().addAll(ring);
-        
+
+
+
+
 
 
     }
@@ -54,6 +57,8 @@ public class h02_main extends Application{
         public void klik()
         {
             System.out.println("Nupp");
+
         }
     }
+
 }
