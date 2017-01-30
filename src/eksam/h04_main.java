@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
 
@@ -28,5 +29,18 @@ public class h04_main extends Application{
         System.out.println(txt01.getText());
         pane.getChildren().addAll(lbl01, txt01);
 
+        kujund(pane);
+
+
+
     }
+
+    private void kujund(Pane pane) {
+        System.out.println("hel");
+        Line joon1 = new Line(100, 100, 200, 200);
+        pane.getChildren().addAll(joon1);
+
+    }
+
+
 }

@@ -13,7 +13,8 @@ public class KuulusNumber {
 
     public static void main(String[] args) {
 
-        int[] naide = {1, 5, 3, 3, 6, 3, 7, 7}; // vastus on 7
+       int[] naide = {1, 5, 3, 3, 6, 3, 7, 7}; // vastus on 7
+       int[] naide2 = null;
         for (int i = 0; i < naide.length; i++) {
 
             // System.out.println(naide[i]);
@@ -28,10 +29,9 @@ public class KuulusNumber {
                 }
 
 
-//            int[] naide2 = {naide[i]};
-//            System.out.println(naide[i]);
+           }
 
-            }
+
         }
 
     }
