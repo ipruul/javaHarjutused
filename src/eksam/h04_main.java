@@ -28,5 +28,7 @@ public class h04_main extends Application{
         System.out.println(txt01.getText());
         pane.getChildren().addAll(lbl01, txt01);
 
+    
+
     }
 }
