@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
 
@@ -20,6 +21,17 @@ public class h04_main extends Application{
         primaryStage.show();
         primaryStage.setScene(scene);
 
+
+
+        kujund(pane);
+        str(pane);
+
+
+
+
+    }
+
+    private void str(Pane pane) {
         Label lbl01 = new Label("Minu proge");
 
         TextField txt01 = new TextField("tere");
@@ -27,8 +39,22 @@ public class h04_main extends Application{
         txt01.getText();
         System.out.println(txt01.getText());
         pane.getChildren().addAll(lbl01, txt01);
+    }
+
+    private void kujund(Pane pane) {
+        System.out.println("hel");
+        Line joon1 = new Line(100, 100, 200, 100);
+        pane.getChildren().addAll(joon1);
+        Line joon2 = new Line(100, 200, 100, 100);
+        pane.getChildren().addAll(joon2);
+        Line joon3 = new Line(200, 200, 100, 200);
+        pane.getChildren().addAll(joon3);
+        Line joon4 = new Line(200, 200, 100, 100);
+        pane.getChildren().addAll(joon4);
 
     
 
     }
+
+
 }
