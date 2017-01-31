@@ -8,6 +8,8 @@ import javafx.scene.layout.Pane;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+
 
 /**
  * Created by ipruu_000 on 30.01.2017.
@@ -22,23 +24,44 @@ public class h04_main extends Application{
         primaryStage.setScene(scene);
 
 
-
         kujund(pane);
         str(pane);
+//        koosolek();
+//        lisaKoosolek();
 
+
+
+
+//        public void uusKoosolek (String koos){
+//        koosolek.add();
 
 
 
     }
 
+
+
+
+
+
+
+
     private void str(Pane pane) {
         Label lbl01 = new Label("Minu proge");
+
+        ArrayList <String> koosolek = new ArrayList();
+
+        String nimi = "Peeter";
+        koosolek.add(nimi);
+
+        Label lbl1 = new Label(nimi);
+        lbl1.setLayoutY(70);
 
         TextField txt01 = new TextField("tere");
         txt01.setLayoutY(30);
         txt01.getText();
         System.out.println(txt01.getText());
-        pane.getChildren().addAll(lbl01, txt01);
+        pane.getChildren().addAll(lbl01, txt01, lbl1);
     }
 
     private void kujund(Pane pane) {
