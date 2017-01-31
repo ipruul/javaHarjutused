@@ -1,22 +1,35 @@
 package eksam;
 
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
 import java.util.ArrayList;
 
-/**
- * Created by ipruu_000 on 31.01.2017.
- */
-public class h05_main {
+public class h05_main{
 
-    public ArrayList<Integer> mynumbers() {
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
 
-        numbers.add(5);
-        numbers.add(8);
-        numbers.add(12);
 
-        return (numbers);
+
+    public static void main(String[] args) {
+
+//        h05 t = new h05();
+//        ArrayList arr = new ArrayList();
+//        arr=t.mynumbers();
+//
+//        h05 a = new h05();
+//        ArrayList arr2 = new ArrayList();
+//        arr2 = a.myNames();
+//
+//        System.out.println(arr);
+//        System.out.println(arr2);
+
+//        public void lisaASi{
+//            arr.add(t);
+//        }
     }
 
+
 }
-
-
