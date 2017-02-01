@@ -50,6 +50,8 @@ h06_gui {
         });
 
 
+
+
         ListView<String> list = new ListView<String>();
         ObservableList<String> items =FXCollections.observableArrayList (
                 "Single", "Double", "Suite", "Family App");
@@ -59,6 +61,9 @@ h06_gui {
 
         button.setLayoutX(50);
         button.setLayoutY(50);
+
+        items.add(txt);
+        
 
 
 
@@ -78,11 +83,7 @@ h06_gui {
         Pane pane = new Pane();
         Scene scene = new Scene(pane, 800, 600);
 
-      //  Label l1 = new Label("Kasutaja");
-        //kasutajanimi = new TextField();
 
-        //lbl1 = new Label();
-       // btn1 = new Button();
 
 
 
