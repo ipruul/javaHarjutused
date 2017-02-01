@@ -30,49 +30,59 @@ h06_gui {
     }
 
     private void helloScreen(Pane pane) {
-        Label l = new Label("test");
+        String txt = null;
+        Label l = new Label("hell");
+
 
         TextField tx = new TextField();
-        tx.setText("Helll");
-        String txt = tx.getText();
-        System.out.println(txt);
+        //     tx.setText(txt);
 
+
+        txt = tx.getText();
+        System.out.println(txt);
 
 
         l.setLayoutY(100);
         l.setLayoutX(100);
-       // String nimi = kasutajanimi.getText();
+        // String nimi = kasutajanimi.getText();
 
 
-        Button button = new Button("klikk");
-        button.setOnAction(event -> {
-            l.setText(txt);
+        Button nupp = new Button("klikk");
+        final String finalTxt = txt;
+        nupp.setOnAction(event -> {
+            l.setText(finalTxt);
         });
 
 
-
-
         ListView<String> list = new ListView<String>();
-        ObservableList<String> items =FXCollections.observableArrayList (
+        ObservableList<String> items = FXCollections.observableArrayList(
                 "Single", "Double", "Suite", "Family App");
         list.setItems(items);
         list.setLayoutX(120);
         list.setLayoutY(120);
 
-        button.setLayoutX(50);
-        button.setLayoutY(50);
+        nupp.setLayoutX(50);
+        nupp.setLayoutY(50);
 
+
+        Button lisa = new Button("lisa");
         items.add(txt);
-        
+        lisa.setLayoutX(100);
+        lisa.setLayoutY(50);
+        System.out.println(txt);
+
+        Button eemalda = new Button("eemalda");
+
+        items.remove(txt);
+
+        eemalda.setLayoutX(100);
+        eemalda.setLayoutY(75);
 
 
-
-        pane.getChildren().addAll(l, button, tx, list);
-
+        pane.getChildren().addAll(l, nupp, tx, list, eemalda, lisa);
 
 
-       // pane.getChildren().addAll(label);
-
+        // pane.getChildren().addAll(label);
 
 
 //        String parool = registerButton.getText();
