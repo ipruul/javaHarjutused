@@ -1,13 +1,14 @@
 package eksam;
 
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -47,12 +48,21 @@ h06_gui {
         button.setOnAction(event -> {
             l.setText(txt);
         });
+
+
+        ListView<String> list = new ListView<String>();
+        ObservableList<String> items =FXCollections.observableArrayList (
+                "Single", "Double", "Suite", "Family App");
+        list.setItems(items);
+        list.setLayoutX(120);
+        list.setLayoutY(120);
+
         button.setLayoutX(50);
         button.setLayoutY(50);
 
 
 
-        pane.getChildren().addAll(l, button, tx);
+        pane.getChildren().addAll(l, button, tx, list);
 
 
 
