@@ -26,8 +26,10 @@ public class h07_oop extends Application{
 
         kott.lisaAsi("Hambahari");
         kott.lisaAsi("Hambapasta");
-        kott.lisaAsi("langevari");
-        kott.lisaAsi("langeveri");
+        kott.lisaAsi("Vangevari");
+        kott.lisaAsi("Vihmavari");
+
+        kott.eemaldaAsi("Vihmavari");
 
         kott.misOnKotis();
 

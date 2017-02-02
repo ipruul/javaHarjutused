@@ -75,7 +75,6 @@ public class harjutus extends Application {
 
         btn3.setOnAction(event -> {
 
-
         });
 
 

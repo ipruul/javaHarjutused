@@ -30,43 +30,49 @@ h06_gui {
     }
 
     private void helloScreen(Pane pane) {
-        String txt = null;
-        Label l = new Label("hell");
+        String txt = "hello";
+        Label l = new Label();
+
 
 
         TextField tx = new TextField();
         //     tx.setText(txt);
-
-
         txt = tx.getText();
         System.out.println(txt);
 
 
-        l.setLayoutY(100);
-        l.setLayoutX(100);
+//        l.setLayoutY(100);
+//        l.setLayoutX(100);
         // String nimi = kasutajanimi.getText();
 
 
         Button nupp = new Button("klikk");
-        final String finalTxt = txt;
-        nupp.setOnAction(event -> {
-            l.setText(finalTxt);
-        });
 
 
         ListView<String> list = new ListView<String>();
+
         ObservableList<String> items = FXCollections.observableArrayList(
-                "Single", "Double", "Suite", "Family App");
+                "Single", "Double", "Suite", "Family App", "Family Gui", "Media man");
         list.setItems(items);
         list.setLayoutX(120);
         list.setLayoutY(120);
+
+
 
         nupp.setLayoutX(50);
         nupp.setLayoutY(50);
 
 
         Button lisa = new Button("lisa");
-        items.add("jaan");
+
+        lisa.setOnAction(event -> {
+
+
+            items.add("a");
+        });
+
+
+
         lisa.setLayoutX(100);
         lisa.setLayoutY(50);
         System.out.println(txt);
