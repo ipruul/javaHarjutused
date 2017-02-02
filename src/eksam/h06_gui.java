@@ -66,14 +66,14 @@ h06_gui {
 
 
         Button lisa = new Button("lisa");
-        items.add(txt);
+        items.add("jaan");
         lisa.setLayoutX(100);
         lisa.setLayoutY(50);
         System.out.println(txt);
 
         Button eemalda = new Button("eemalda");
 
-        items.remove(txt);
+        items.remove("jaa");
 
         eemalda.setLayoutX(100);
         eemalda.setLayoutY(75);
