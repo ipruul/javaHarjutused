@@ -18,6 +18,7 @@ public class h05_main {
         System.out.println(kassa.kassaSeis());
 
         h05_kassaDollar kassa2 = new h05_kassaDollar(400, "Juuli");
+        System.out.println(kassa2.kassaSeis());
 
 
     }

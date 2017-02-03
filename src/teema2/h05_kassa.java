@@ -16,7 +16,12 @@ public class h05_kassa {
         raha = raha + rahaSisse;
     }
 
-    public int kassaSeis(){
-return raha;
+    public String kassaSeis(){
+        return raha + "€";
     }
+
+    /**
+     * Created by ipruu_000 on 3.02.2017.
+     */
+
 }
