@@ -23,7 +23,7 @@ public class harjutus4 extends Application {
         TextField txt2 = new TextField();
 
 
-        txt1.setPrefSize(200, 200);
+        txt1.setPrefSize(200, 20);
         txt2.setPrefSize(200, 200);
         txt2.setLayoutX(250);
 

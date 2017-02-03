@@ -12,9 +12,13 @@ public class h05_main {
         System.out.println(h05_abi.arv);
 
 
-        h05_kassa kassa = new h05_kassa();
+        h05_kassa kassa = new h05_kassa(200, "Maali");
         kassa.sisestaRaha(28);
         kassa.sisestaRaha(10);
         System.out.println(kassa.kassaSeis());
+
+        h05_kassaDollar kassa2 = new h05_kassaDollar(400, "Juuli");
+
+
     }
 }
