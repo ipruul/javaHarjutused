@@ -33,13 +33,10 @@ h06_gui {
         String txt = "hello";
         Label l = new Label();
 
-
-
         TextField tx = new TextField();
         //     tx.setText(txt);
         txt = tx.getText();
         System.out.println(txt);
-
 
 //        l.setLayoutY(100);
 //        l.setLayoutX(100);
@@ -47,12 +44,9 @@ h06_gui {
 
 
         Button nupp = new Button("klikk");
-
-
         ListView<String> list = new ListView<String>();
-
         ObservableList<String> items = FXCollections.observableArrayList(
-                "Single", "Double", "Suite", "Family App", "Family Gui", "Media man");
+               "Single", "Double", "Suite", "Family App", "Family Gui", "Media man");
         list.setItems(items);
         list.setLayoutX(120);
         list.setLayoutY(120);
@@ -100,13 +94,8 @@ h06_gui {
         Scene scene = new Scene(pane, 800, 600);
 
 
-
-
-
         helloScreen(pane);
-
         pane.getChildren().addAll();
-
 
         stage.setScene(scene);
         stage.show();

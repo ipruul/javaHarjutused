@@ -35,11 +35,8 @@ public class h07_oop extends Application{
 
        // System.out.println("kotis on järgnevad asjad " + kott.misOnKotis() + " ");
 
-
         ListView listView = new ListView();
-
         listView.getItems().addAll(kott.list);
-
 
         pane.getChildren().addAll(listView);
 
@@ -47,6 +44,7 @@ public class h07_oop extends Application{
 
 
     }
+
 
 
 
